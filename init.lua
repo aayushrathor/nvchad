@@ -6,14 +6,6 @@
 --   command = "tabdo wincmd =",
 -- })
 
-local opt = vim.opt
-
-opt.relativenumber = true -- Show relative numberline
-opt.scrolloff = 8 -- Number of lines to keep above and below the cursorline
-opt.pumheight = 10 -- Height of the pop up menu
-opt.wrap = false -- Disable wrapping of lines longer than the width of window
-opt.breakindent = true -- Wrap indent to match  line start
-
 local enable_providers = {
   "python3_provider",
   "node_provider",
