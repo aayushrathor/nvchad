@@ -37,6 +37,45 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- docker
+    "dockerfile-language-server",
+    "docker-compose-language-service",
+
+    -- go
+    "gopls",
+    "glint",
+    "go-debug-adapter",
+    "goimports",
+    "goimports-reviser",
+    "golangci-lint",
+    "golangci-lint-langserver",
+    "golines",
+    "gotests",
+    "gotestsum",
+
+    -- python
+    "pyright",
+    "flake8",
+    "black",
+    "mypy",
+    "pydocstyle",
+    "pylint",
+    "pyre",
+    "autoflake",
+    "autopep8",
+    "python-lsp-server",
+
+    -- yaml
+    "terraform-ls",
+    "tflint",
+    "yaml-language-server",
+    "yamlfmt",
+    "yamllint",
+
+    -- sql
+    "sqlfluff",
+    "sqls",
   },
 }
 

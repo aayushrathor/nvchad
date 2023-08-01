@@ -23,7 +23,17 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = overrides.mason
   },
-
+  -- {
+  --   "folke/which-key.nvim",
+  --   event = "VeryLazy",
+  --   init = function()
+  --     vim.o.timeout = true
+  --     vim.o.timeoutlen = 300
+  --   end,
+  --   opts = {
+  --     nowait = true,
+  --   }
+  -- },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
@@ -64,6 +74,13 @@ local plugins = {
   {
     "ThePrimeagen/vim-be-good",
     lazy = false,
+  },
+  {
+    "windwp/nvim-ts-autotag",
+    event = "InsertEnter",
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
   },
 }
 

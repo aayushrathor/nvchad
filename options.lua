@@ -34,7 +34,7 @@ local options = {
   scrolloff = 8,                           -- is one of my fav
   sidescrolloff = 8,
   breakindent = true,                      -- Wrap indent to match  line start
-  guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  guifont = "Lig Operator Mono:h12",               -- the font used in graphical neovim applications
 }
 
 vim.opt.shortmess:append "c"
