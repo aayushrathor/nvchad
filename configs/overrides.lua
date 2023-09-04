@@ -4,14 +4,29 @@ M.treesitter = {
   ensure_installed = {
     "vim",
     "lua",
+
+    -- web stuff
     "html",
     "css",
     "javascript",
     "typescript",
     "tsx",
+
+    -- c stuff
     "c",
+    "cpp",
+
+    -- python stuff
+    "python",
+
+    -- misc
+    "go",
+    "json",
+    "json5",
+    "graphql",
     "markdown",
     "markdown_inline",
+    "yaml",
   },
   indent = {
     enable = true,
