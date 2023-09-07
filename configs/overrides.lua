@@ -11,6 +11,7 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
+    "sql",
 
     -- c stuff
     "c",
